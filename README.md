@@ -11,6 +11,7 @@ Transactional Key-Value Database(tkvdb)<br />
 本项目，就此诞生了<br />
 <br />
 本项目可以通过tkvdb-client远程连接，也可以作为嵌入式数据库直接用在你的java项目中<br />
+java版本要求1.8+<br />
 api的设置会参考redis等key-value数据库<br />
 io流采用java的nio处理，所以不追求最短单次请求时间，而追求最高并发量<br />
 虽然有事务管理，但数据会尽可能的存储在内存中，以确保最高的性能<br />
